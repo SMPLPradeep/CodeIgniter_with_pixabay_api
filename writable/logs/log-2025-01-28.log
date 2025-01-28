@@ -1,0 +1,48 @@
+CRITICAL - 2025-01-28 19:58:34 --> Error: Call to undefined method CodeIgniter\HTTP\Response::setFile()
+[Method: GET, Route: uploads/1738093329_5f857c39090a3435a83f.jpg]
+in APPPATH\Controllers\Uploads.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Uploads->index('1738093329_5f857c39090a3435a83f.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-28 20:00:02 --> Error: Call to undefined method CodeIgniter\HTTP\Response::setFile()
+[Method: GET, Route: uploads/1738094401_d906f8229a9c2ae01ca1.png]
+in APPPATH\Controllers\Uploads.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Uploads->index('1738094401_d906f8229a9c2ae01ca1.png')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-28 20:24:35 --> ErrorException: Undefined property: App\Controllers\Search::$load
+[Method: GET, Route: search]
+in APPPATH\Controllers\Search.php on line 10.
+ 1 APPPATH\Controllers\Search.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Search::$load', 'C:\\xampp\\htdocs\\codeigniterTest\\app\\Controllers\\Search.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Search->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-28 20:25:05 --> ErrorException: Undefined property: App\Controllers\Search::$load
+[Method: GET, Route: search]
+in APPPATH\Controllers\Search.php on line 11.
+ 1 APPPATH\Controllers\Search.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Search::$load', 'C:\\xampp\\htdocs\\codeigniterTest\\app\\Controllers\\Search.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Search->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-28 20:25:06 --> ErrorException: Undefined property: App\Controllers\Search::$load
+[Method: GET, Route: search]
+in APPPATH\Controllers\Search.php on line 11.
+ 1 APPPATH\Controllers\Search.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Search::$load', 'C:\\xampp\\htdocs\\codeigniterTest\\app\\Controllers\\Search.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Search->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
